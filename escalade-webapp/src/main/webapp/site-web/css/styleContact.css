@@ -1,0 +1,40 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.jumbotron{
+    background-color: #4e555b;
+    margin-top: 3.4%;
+    opacity: 92%;
+    width: 50%;
+}
+body{
+    background-image: url("../../site-web/photos/contact2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+
+@media screen and (max-width:767px){
+    .jumbotron{
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .jumbotron{
+        width: 85%;
+    }
+}
+
+
+

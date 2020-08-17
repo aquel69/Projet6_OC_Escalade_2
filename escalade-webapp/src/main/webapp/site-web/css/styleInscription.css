@@ -1,0 +1,47 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+body{
+    background-image: url("../photos/Inscritpion.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.jumbotron{
+    background-color: #4e555b;
+    margin-top: 13%;
+    margin-left: 25%;
+    width: 85%;
+    opacity: 92%;
+}
+
+.btnValide{
+    width: 50%;
+
+}
+
+@media screen and (max-width:1300px){
+
+    .jumbotron{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+
+}
+
+
+@media screen and (max-width:576px){
+
+}

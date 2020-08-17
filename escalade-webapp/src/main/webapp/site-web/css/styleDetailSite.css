@@ -1,0 +1,111 @@
+html {
+    position: relative;
+    min-height: 100%;
+
+}
+
+body{
+    background-image: url("../../site-web/photos/detailSite.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    opacity: 100%;
+
+}
+
+h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color : #ffffff;
+    font-size: 3.5em;
+}
+
+label{
+    font-family: "Open Sans", Georgia, "Times New Roman", serif;
+    color : #ffffff;
+    font-size: 1.1em;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    color : #000000;
+}
+
+.cr{
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+#paracommentaire{
+    font-size: 0.92em;
+}
+
+.commentaire{
+
+    height: 50%;
+    max-height: 280px;
+}
+
+.ligneCommentaire{
+    height: 240px;
+    max-height: 240px;
+}
+
+.general{
+
+    height: auto;
+    margin: auto;
+    width: 95%;
+    min-width: 95%;
+
+}
+.photo{
+    width: 800px;
+    height: 500px;
+}
+
+.pasPhoto{
+    width:1166px;
+    height: 640px;
+    max-height: 640px;
+    min-height: 640px;
+}
+
+.carousel-inner img{
+    width: auto;
+    height: 640px;
+    opacity: 100%;
+}
+
+.partiePhoto{
+    /*width: 1400px;*/
+    height: 100px;
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.tableau{
+    margin-bottom: 20px;
+    height: 230px;
+    max-height: 230px;
+    overflow-y: scroll;
+}
+
+.ligneTopo{
+    height: 200px;
+}
+
+.topo{
+    height: 115px;
+    max-height: 115px;
+}

@@ -1,0 +1,108 @@
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3em;
+    color : #050505;
+}
+
+h3{
+    font-size: 2.5em;
+    font-family: 'Baloo Bhai 2', cursive;
+
+    color : #ffffff;
+}
+
+
+body{
+    background-image: url("../../site-web/photos/gestionDesTopos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin-right: 0;
+}
+
+.formulaire{
+    border: #e1eae6;
+}
+
+.listeDesTopos{
+    height: 163px;
+    max-height: 163px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.cr{
+    min-width: 100%;
+    /*box-sizing: border-box;*/
+    /*width: 100%;*/
+}
+
+.listeCommentaire{
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 100%;
+}
+
+.ajoutTopo{
+    height: 190px;
+    max-height: 190px;
+    min-height: 190px;
+}
+
+.ajoutTopoTitre{
+    font-family: 'Baloo Bhai 2', cursive;
+    color : #ffffff;
+}
+
+.titreCommentaire{
+    font-family: 'Baloo Bhai 2', cursive;
+    color : #ffffff;
+
+}
+
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:767px){
+    #foot {
+        position: static;
+    }
+
+    /*.formulaire{*/
+    /*    border-right: InactiveBorder;*/
+    /*}*/
+    .general{
+        padding: 0;
+        margin: 0;
+    }
+    .commentaire{
+        position: center;
+        margin-left: 18px;
+    }
+
+    .ajouterTopo{
+        margin-left: 18px;
+        position: center;
+    }
+
+    .ajoutTopoTitre{
+        border-top: #e1eae6;
+        position: center;
+    }
+}

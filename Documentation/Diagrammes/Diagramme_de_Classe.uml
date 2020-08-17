@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.alardon.escalade.bean.adresse.Adresse</OriginalElement>
+  <nodes>
+    <node x="386.37598039215686" y="1440.0">fr.alardon.escalade.bean.site.Commentaire</node>
+    <node x="205.60563725490192" y="768.0">fr.alardon.escalade.bean.referentiel.Departement</node>
+    <node x="429.71348039215684" y="769.0">fr.alardon.escalade.bean.referentiel.Region</node>
+    <node x="234.22965686274512" y="2063.0">fr.alardon.escalade.bean.site.Secteur</node>
+    <node x="578.9166666666666" y="1050.0">fr.alardon.escalade.bean.utilisateur.Utilisateur</node>
+    <node x="584.380637254902" y="2066.0">fr.alardon.escalade.bean.site.Voie</node>
+    <node x="877.25" y="1260.0">fr.alardon.escalade.bean.referentiel.Cotation</node>
+    <node x="637.0009803921569" y="764.0">fr.alardon.escalade.bean.referentiel.Pays</node>
+    <node x="122.72965686274512" y="1757.0">fr.alardon.escalade.bean.site.SiteEscalade</node>
+    <node x="630.25" y="1667.0">fr.alardon.escalade.bean.topo.ReservationTopo</node>
+    <node x="864.0009803921569" y="902.0">fr.alardon.escalade.bean.referentiel.EnumRole</node>
+    <node x="0.0" y="1491.0">fr.alardon.escalade.bean.site.UrlPhoto</node>
+    <node x="328.87598039215686" y="1611.0">fr.alardon.escalade.bean.site.ListeCommentaireSiteEscalade</node>
+    <node x="163.0" y="1414.0">fr.alardon.escalade.bean.referentiel.Orientation</node>
+    <node x="560.4806372549019" y="1326.0">fr.alardon.escalade.bean.topo.Topo</node>
+    <node x="173.46348039215684" y="1088.0">fr.alardon.escalade.bean.adresse.Adresse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.alardon.escalade.bean.site.SiteEscalade" target="fr.alardon.escalade.bean.site.UrlPhoto">
+      <point x="-166.95000000000016" y="-137.0" />
+      <point x="146.27965686274496" y="1870.0" />
+      <point x="35.5" y="1870.0" />
+      <point x="-35.5" y="49.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.SiteEscalade" target="fr.alardon.escalade.bean.referentiel.Orientation">
+      <point x="-55.65000000000009" y="-137.0" />
+      <point x="257.579656862745" y="1840.0" />
+      <point x="198.5" y="1840.0" />
+      <point x="-35.5" y="126.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.Secteur" target="fr.alardon.escalade.bean.site.SiteEscalade">
+      <point x="-33.5" y="-49.0" />
+      <point x="268.7296568627451" y="2050.0" />
+      <point x="216.47965686274512" y="2050.0" />
+      <point x="-92.75" y="137.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.SiteEscalade" target="fr.alardon.escalade.bean.site.ListeCommentaireSiteEscalade">
+      <point x="55.64999999999998" y="-137.0" />
+      <point x="368.8796568627451" y="1870.0" />
+      <point x="391.87598039215686" y="1870.0" />
+      <point x="-68.0" y="38.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.adresse.Adresse" target="fr.alardon.escalade.bean.referentiel.Pays">
+      <point x="-78.75" y="-93.0" />
+      <point x="331.21348039215684" y="1088.0" />
+      <point x="333.96348039215684" y="942.0" />
+      <point x="611.9634803921568" y="944.0" />
+      <point x="654.2509803921569" y="944.0" />
+      <point x="-54.75" y="60.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.Commentaire" target="fr.alardon.escalade.bean.utilisateur.Utilisateur">
+      <point x="39.25" y="-60.0" />
+      <point x="502.12598039215686" y="1225.0" />
+      <point x="585.1666666666666" y="1225.0" />
+      <point x="-40.25" y="104.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.topo.Topo" target="fr.alardon.escalade.bean.utilisateur.Utilisateur">
+      <point x="-53.0" y="-104.0" />
+      <point x="621.4806372549019" y="1326.0" />
+      <point x="620.0" y="1240.0" />
+      <point x="-13.416666666666629" y="104.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.referentiel.Departement" target="fr.alardon.escalade.bean.referentiel.Region">
+      <point x="-34.0" y="-60.0" />
+      <point x="343.6056372549019" y="799.0" />
+      <point x="434.21348039215684" y="800.0" />
+      <point x="-13.5" y="49.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.SiteEscalade" target="fr.alardon.escalade.bean.adresse.Adresse">
+      <point x="18.549999999999955" y="-137.0" />
+      <point x="331.77965686274507" y="1870.0" />
+      <point x="315.5" y="1870.0" />
+      <point x="314.5" y="1348.0" />
+      <point x="315.33848039215684" y="1274.0" />
+      <point x="-23.625" y="93.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.ListeCommentaireSiteEscalade" target="fr.alardon.escalade.bean.site.Commentaire">
+      <point x="-68.0" y="-38.0" />
+      <point x="428.87598039215686" y="1620.0" />
+      <point x="427.62598039215686" y="1549.0" />
+      <point x="-39.25" y="60.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.referentiel.Region" target="fr.alardon.escalade.bean.referentiel.Pays">
+      <point x="27.0" y="-49.0" />
+      <point x="534.7134803921568" y="843.0" />
+      <point x="638.2509803921569" y="844.0" />
+      <point x="18.25" y="60.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.adresse.Adresse" target="fr.alardon.escalade.bean.referentiel.Region">
+      <point x="47.25" y="-93.0" />
+      <point x="293.21348039215684" y="1088.0" />
+      <point x="297.1056372549019" y="909.0" />
+      <point x="459.1056372549019" y="909.0" />
+      <point x="459.21348039215684" y="867.0" />
+      <point x="40.5" y="49.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.topo.ReservationTopo" target="fr.alardon.escalade.bean.utilisateur.Utilisateur">
+      <point x="28.5" y="-71.0" />
+      <point x="806.75" y="1673.0" />
+      <point x="807.9806372549019" y="1235.0" />
+      <point x="807.9806372549019" y="1167.0" />
+      <point x="737.6666666666666" y="1168.0" />
+      <point x="40.25" y="104.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.Voie" target="fr.alardon.escalade.bean.site.Secteur">
+      <point x="-18.375" y="-71.0" />
+      <point x="589.505637254902" y="2177.0" />
+      <point x="335.7296568627451" y="2179.0" />
+      <point x="33.5" y="49.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.utilisateur.Utilisateur" target="fr.alardon.escalade.bean.adresse.Adresse">
+      <point x="-20.125" y="-104.0" />
+      <point x="581.2916666666666" y="1133.0" />
+      <point x="356.83848039215684" y="1134.0" />
+      <point x="70.875" y="93.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.utilisateur.Utilisateur" target="fr.alardon.escalade.bean.referentiel.EnumRole">
+      <point x="20.125" y="-104.0" />
+      <point x="679.5416666666666" y="976.0" />
+      <point x="867.2509803921569" y="979.0" />
+      <point x="-36.25" y="82.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.SiteEscalade" target="fr.alardon.escalade.bean.referentiel.Cotation">
+      <point x="166.95000000000005" y="-137.0" />
+      <point x="480.17965686274516" y="1870.0" />
+      <point x="930.5" y="1870.0" />
+      <point x="-17.75" y="280.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.adresse.Adresse" target="fr.alardon.escalade.bean.referentiel.Departement">
+      <point x="-15.75" y="-93.0" />
+      <point x="253.21348039215684" y="943.0" />
+      <point x="253.60563725490192" y="885.0" />
+      <point x="-34.0" y="60.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.topo.ReservationTopo" target="fr.alardon.escalade.bean.topo.Topo">
+      <point x="-28.5" y="-71.0" />
+      <point x="726.75" y="1688.0" />
+      <point x="720.4806372549019" y="1668.0" />
+      <point x="53.0" y="104.0" />
+    </edge>
+    <edge source="fr.alardon.escalade.bean.site.Voie" target="fr.alardon.escalade.bean.referentiel.Cotation">
+      <point x="18.375" y="-71.0" />
+      <point x="733.255637254902" y="2089.0" />
+      <point x="978.25" y="2088.0" />
+      <point x="978.25" y="1870.0" />
+      <point x="966.0" y="1870.0" />
+      <point x="17.75" y="280.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="1386.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
