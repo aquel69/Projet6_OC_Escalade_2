@@ -85,8 +85,29 @@
                                 </div>
                             </c:if>
                             <input type="text" id="altitude" name="altitude" class="form-control mb-4" placeholder="Altitude">
+                            <c:if test="${erreurs['altitudeDuSite'] != null}">
+                                <div class="alert alert-warning alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                    <strong>Attention !</strong> <span class="erreur">${erreurs['altitudeDuSite']}</span>
+                                </div>
+                            </c:if>
                             <input type="text" id="tempsApproche" name="tempsApproche" class="form-control mb-4" placeholder="Temps d'Approche">
+                            <c:if test="${erreurs['tempsApproche'] != null}">
+                                <div class="alert alert-warning alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                    <strong>Attention !</strong> <span class="erreur">${erreurs['tempsApproche']}</span>
+                                </div>
+                            </c:if>
                             <input type="text" id="typeDeRoche" name="typeDeRoche" class="form-control mb-4" placeholder="Type de Roche">
+                            <c:if test="${erreurs['typeDeRoche'] != null}">
+                                <div class="alert alert-warning alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                    <strong>Attention !</strong> <span class="erreur">${erreurs['typeDeRoche']}</span>
+                                </div>
+                            </c:if>
                             <select type="text" class="form-control mt-4 mb-5" id="orientation" name="orientation" placeholder="Orientation"  required>
                                 <c:forEach var="orientation"  items="${requestScope['listeDesOrientations']}" >
                                     <option value="<c:out value='${orientation.abreviation}'/>"><c:out value="${orientation.direction}"/></option>
@@ -110,6 +131,28 @@
                                 <div class="col-4">
                                     <input type="text" id="voie" name="voie" class="form-control" placeholder="Voie">
                                 </div>
+                                <c:if test="${erreurs['nomSecteur'] != null}">
+                                    <div class="alert alert-warning alert-dismissible" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span></button>
+                                        <strong>Attention !</strong> <span class="erreur">${erreurs['nomSecteur']}</span>
+                                    </div>
+                                </c:if>
+                                <c:if test="${erreurs['nomVoie'] != null}">
+                                    <div class="alert alert-warning alert-dismissible" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span></button>
+                                        <strong>Attention !</strong> <span class="erreur">${erreurs['nomVoie']}</span>
+                                    </div>
+                                </c:if>
+                                <c:if test="${erreurs['numeroVoie'] != null}">
+                                    <div class="alert alert-warning alert-dismissible" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span></button>
+                                        <strong>Attention !</strong> <span class="erreur">${erreurs['numeroVoie']}</span>
+                                    </div>
+                                </c:if>
+
                                 <div class="col-2">
                                     <select type="text" class="form-control" id="cotation" name="cotation" placeholder="Cotation"  required>
                                         <c:forEach var="cotation"  items="${listeDesCotations}" >
